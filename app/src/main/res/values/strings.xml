@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MeetLocal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web_client_id">611195133740-anm2fhi2q5f8rvr4lj2427aiqd10cfd7.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">543300722683743</string>
+    <string name="fb_login_protocol_scheme">fb543300722683743</string>
+    <string name="welcome_to_meetlocal">Welcome %s to MeetLocal</string>
+    <string name="google_maps_api_key">AIzaSyBpWasO2vxPrERJkamhlFZyRZ57So8Uqj8</string>
+</resources>
