@@ -3,11 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.android.meetlocal.activity.MainActivity">
-
-    <FrameLayout
-        android:id="@+id/sign_up_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    tools:context="com.android.meetlocal.activity.HomeActivity">
 
 </android.support.constraint.ConstraintLayout>

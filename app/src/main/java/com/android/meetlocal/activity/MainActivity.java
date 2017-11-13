@@ -1,8 +1,8 @@
-package com.android.meetlocal;
+package com.android.meetlocal.activity;
 
 import android.os.Bundle;
 
-import com.android.meetlocal.activity.BaseActivity;
+import com.android.meetlocal.R;
 import com.android.meetlocal.fragment.LoginFragment;
 import com.android.meetlocal.fragment.WelcomeFragment;
 

@@ -18,34 +18,77 @@
 
     <ImageView
         android:id="@+id/user_image"
-        android:layout_width="240dp"
-        android:layout_height="240dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
         android:layout_below="@+id/welcome_txt"
-        android:layout_marginTop="16dp"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp" />
+
+    <RelativeLayout
+        android:id="@+id/select_location_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_image"
+        android:layout_marginTop="32dp">
+
+        <View
+            android:id="@+id/div_one"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:alpha="0.33"
+            android:background="#d3d3d3" />
+
+        <ImageView
+            android:id="@+id/location_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/div_one"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_my_location_black_24dp" />
+
+        <TextView
+            android:id="@+id/location_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/div_one"
+            android:layout_margin="16dp"
+            android:layout_toRightOf="@+id/location_img"
+            android:text="Select your location"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <View
+            android:id="@+id/div_two"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/location_txt"
+            android:alpha="0.33"
+            android:background="#d3d3d3" />
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/interest_txt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tell us a bit about what interests you most?"
-        android:textSize="20sp"
-        android:layout_below="@id/user_image"
+        android:layout_below="@id/select_location_rl"
         android:layout_marginTop="32dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="Tell us a bit about what interests you most?"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/pick_interest_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/interest_txt"
         android:layout_centerHorizontal="true"
-        android:textSize="16sp"
         android:layout_margin="16dp"
-        android:padding="10dp"
         android:background="@drawable/btn_background"
+        android:gravity="center"
+        android:padding="10dp"
         android:text="Pick your interests"
         android:textAllCaps="false"
-        android:gravity="center"
         android:textColor="@android:color/white"
-        android:layout_below="@+id/interest_txt"/>
+        android:textSize="16sp" />
 </RelativeLayout>

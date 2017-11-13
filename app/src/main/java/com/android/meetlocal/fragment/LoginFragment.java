@@ -37,7 +37,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class LoginFragment extends BaseFragment implements View.OnClickListener,InterestListDialogFragment.Listener {
+public class LoginFragment extends BaseFragment implements View.OnClickListener {
 
     public static final String TAG = LoginFragment.class.getSimpleName();
     private static final int RC_SIGN_IN = 9001;
@@ -239,10 +239,5 @@ public class LoginFragment extends BaseFragment implements View.OnClickListener,
             case R.id.facebook_login_btn:
                 break;
         }
-    }
-
-    @Override
-    public void onItemClicked(int position) {
-
     }
 }
